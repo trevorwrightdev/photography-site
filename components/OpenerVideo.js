@@ -1,5 +1,3 @@
-import openerVideo from '../public'
-
 import styles from '../styles/Home.module.css'
 
 // TODO: Make this work
@@ -7,7 +5,7 @@ import styles from '../styles/Home.module.css'
 const OpenerVideo = () => {
   return (
       <div className={styles.video}>
-          <video src={openerVideo} autoplay muted loop></video>
+          <video src={''} autoplay muted loop></video>
       </div>
   );
 };
