@@ -3,7 +3,7 @@ const NavBar = () => {
     <div className='nav'>
         
 
-
+      
     </div>
   );
 };
