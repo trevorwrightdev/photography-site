@@ -2,13 +2,18 @@ import { useState } from 'react'
 
 import { motion } from 'framer-motion'
 
-const MobileNav = ({ heightAnim }) => {
+const MobileNav = ({ heightAnim, menuIsOpen }) => {
 
 
 
     return (
-    <motion.div className='mobileNav' animate={{height: heightAnim}} transition={{duration: 0.3}}>
-
+    <motion.div className='mobileNav' animate={{height: heightAnim}} transition={{duration: 0.25}}>
+        <div className='mobileNavWords' style={menuIsOpen ? {display: 'flex'} : {display: 'none'}}>
+            <h1>PHOTOGRAPHY</h1>
+            <h1>VIDEOGRAPHY</h1>
+            <h1>ABOUT</h1>
+            <h1>CONTACT</h1>
+        </div>
     </motion.div>
     )
 }

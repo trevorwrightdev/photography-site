@@ -21,7 +21,7 @@ const FullNav = () => {
     return (
     <div>
         <NavBar clickEvent={menuIsOpen ? menuClose : menuOpen}/>
-        <MobileNav heightAnim={height}/>
+        <MobileNav menuIsOpen={menuIsOpen} heightAnim={height}/>
     </div>
     )
 }

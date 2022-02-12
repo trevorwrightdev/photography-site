@@ -34,4 +34,21 @@ html {
 	background: black;
 	position: absolute;
 	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mobileNavWords {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 20px;
+	font-size: 0.7rem;
+}
+
+.mobileNavWords h1 {
+	cursor: pointer;
 }
