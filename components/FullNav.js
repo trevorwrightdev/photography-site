@@ -8,7 +8,7 @@ const FullNav = () => {
     const [menuIsOpen, setMenuOpen] = useState(false)
 
     const menuOpen = () => {
-        setHeight('100%')
+        setHeight('90vh')
         setMenuOpen(true)
     }
 
