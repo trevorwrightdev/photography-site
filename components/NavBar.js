@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link'
 import { motion } from 'framer-motion'
 import menuIcon from '../public/images/segment_white_24dp.svg'
 
@@ -9,7 +10,9 @@ const NavBar = ({ clickEvent }) => {
         <Image onClick={clickEvent} src={menuIcon} layout='fill' />
       </div>
       <div className='sig'>
+        <Link href='/'>
           <Image className='sigImage' src='/../public/lee-signature-scaled.png' layout='fill'/>
+        </Link>
       </div>
       <div className='invisible'>
 

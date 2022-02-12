@@ -68,4 +68,5 @@ html {
 
 .sigImage {
 	object-fit: contain;
+	cursor: pointer;
 }

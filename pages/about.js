@@ -1,6 +1,6 @@
 import FullNav from '../components/FullNav'
 
-export default function Photography({ }) {
+export default function About({ }) {
   return (
     <>
       <FullNav />
