@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
 * {
 	padding: 0;
 	margin: 0;
@@ -7,12 +9,13 @@
 html {
 	background-color: black;
 	font-size: 16px;
+	font-family: 'Francois One', sans-serif;
 	color: white;
 }
 
 .nav {
 	width: 100%;
-	height: 7vh;
+	height: 10vh;
 	background: black;
 	display: flex;
 	flex-direction: row-reverse;
@@ -22,5 +25,48 @@ html {
 	position: relative;
 	height: 100%;
 	width: 20%;
+	cursor: pointer;
+}
+
+.mobileNav {
+	height: 0;
+	width: 100%;
+	background: black;
+	position: absolute;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mobileNavWords {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 20px;
+	font-size: 0.7rem;
+}
+
+.mobileNav h1 {
+	cursor: pointer;
+}
+
+.invisible {
+	height: 100%;
+	width: 20%;
+}
+
+.sig {
+	position: relative;
+	height: 120%;
+	width: 20%;
+	margin: 0 auto;
+	bottom: 8%;
+}
+
+.sigImage {
+	object-fit: contain;
 	cursor: pointer;
 }
