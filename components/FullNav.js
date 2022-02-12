@@ -8,7 +8,7 @@ const FullNav = () => {
     const [menuIsOpen, setMenuOpen] = useState(false)
 
     const menuOpen = () => {
-        setHeight('93vh')
+        setHeight('100%')
         setMenuOpen(true)
     }
 
@@ -16,8 +16,7 @@ const FullNav = () => {
         setHeight(0)
         setMenuOpen(false)
     }
-
-
+    
     return (
     <div>
         <NavBar clickEvent={menuIsOpen ? menuClose : menuOpen}/>

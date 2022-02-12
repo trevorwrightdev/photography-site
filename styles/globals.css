@@ -49,6 +49,23 @@ html {
 	font-size: 0.7rem;
 }
 
-.mobileNavWords h1 {
+.mobileNav h1 {
 	cursor: pointer;
+}
+
+.invisible {
+	height: 100%;
+	width: 20%;
+}
+
+.sig {
+	position: relative;
+	height: 120%;
+	width: 20%;
+	margin: 0 auto;
+	bottom: 8%;
+}
+
+.sigImage {
+	object-fit: contain;
 }
