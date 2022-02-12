@@ -1,11 +1,12 @@
-import NavBar from '../components/NavBar'
+
+import FullNav from '../components/FullNav'
 
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <NavBar />
+      <FullNav />
       <Component {...pageProps} />
     </>
   )

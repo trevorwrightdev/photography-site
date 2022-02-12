@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
 * {
 	padding: 0;
 	margin: 0;
@@ -7,6 +9,7 @@
 html {
 	background-color: black;
 	font-size: 16px;
+	font-family: 'Francois One', sans-serif;
 	color: white;
 }
 
@@ -23,4 +26,12 @@ html {
 	height: 100%;
 	width: 20%;
 	cursor: pointer;
+}
+
+.mobileNav {
+	height: 0;
+	width: 100%;
+	background: black;
+	position: absolute;
+	z-index: 1;
 }
