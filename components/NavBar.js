@@ -11,7 +11,7 @@ const NavBar = ({ clickEvent }) => {
       </div>
       <div className='sig'>
         <Link href='/'>
-          <Image className='sigImage' src='/../public/lee-signature-scaled.png' layout='fill'/>
+          <Image className='sigImage' src='/../public/lee-signature-new.png' layout='fill'/>
         </Link>
       </div>
       <div className='invisible'>
