@@ -12,7 +12,7 @@ import styles from '../styles/Photography.module.css'
 const Photos = ({animRight}) => {
   return (
     <div className={styles.overflowContainer}>
-        <motion.div animate={{x: animRight}} transition={{type: 'spring', stiffness: 70}} className={styles.photoContainer}>
+        <motion.div animate={{x: animRight}} transition={{type: 'spring', stiffness: 40}} className={styles.photoContainer}>
             {/* Column 1 */}
             <WrappedPhoto col={1} row={1} src={janae1} height='562.5px' width='450px'/>
             <WrappedPhoto col={1} row={2} src={savannah1} height='300.58px' width='450px'/>
