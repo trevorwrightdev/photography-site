@@ -8,7 +8,7 @@ import styles from '../styles/Photography.module.css'
 const Photos = ({animRight}) => {
   return (
     <div className={styles.overflowContainer}>
-        <motion.div animate={{x: animRight}} transition={{type: 'spring', stiffness: 80}} className={styles.photoContainer}>
+        <motion.div animate={{x: animRight}} transition={{type: 'spring', stiffness: 70}} className={styles.photoContainer}>
             {/* Column 1 */}
             <div className={`${styles.square} ${styles.col1}`}></div>
             {/* Column 2 */}
