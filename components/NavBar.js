@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from 'next/link'
-import { motion } from 'framer-motion'
 import menuIcon from '../public/images/segment_white_24dp.svg'
 
 const NavBar = ({ clickEvent }) => {
