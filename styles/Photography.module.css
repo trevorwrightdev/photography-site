@@ -14,10 +14,39 @@
     cursor: pointer;
 }
 
+.overflowContainer {
+    width: 100vw;
+    overflow: hidden;
+}
+
 .photoContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-items: center;
-    width: 100%;
+    width: 300%;
+    background: white;
+    position: relative;
+}
+
+.col1 {
+    grid-column: 1;
+}
+
+.col2 {
+    grid-column: 2;
+}
+
+.col3 {
+    grid-column: 3;
+}
+
+.row1 {
+    grid-row: 1;
+}
+
+.square {
+    background: red;
+    width: 50px;
+    height: 50px;
 }
