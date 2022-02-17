@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from 'next/link'
+import signature from '../public/lee-signature-new.png'
 import menuIcon from '../public/images/segment_white_24dp.svg'
 
 const NavBar = ({ clickEvent }) => {
@@ -10,7 +11,7 @@ const NavBar = ({ clickEvent }) => {
       </div>
       <div className='sig'>
         <Link href='/'>
-          <Image className='sigImage' src='/../public/lee-signature-new.png' layout='fill'/>
+          <Image className='sigImage' src={signature} layout='fill'/>
         </Link>
       </div>
       <div className='invisible'>
