@@ -5,6 +5,10 @@ import { motion } from 'framer-motion'
 
 import styles from '../styles/Photography.module.css'
 
+// TODO: Make navbar not respect scrolling. This should be fairly simple... we should do the same with the mobile navbar to avoid
+// TODO: issues where the content on the page may exceed the size of the mobile navbar. If it doesn't respect scrolling,
+// TODO: then we they will be able to scroll but they won't be able to scroll past the menu...
+
 const Photos = ({animRight}) => {
   return (
     <div className={styles.overflowContainer}>
