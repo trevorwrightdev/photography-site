@@ -9,9 +9,7 @@ export default function Home() {
     <>
       <Meta title='Martinos'/>
       <FullNav />
-      <div className={styles.test}>
-
-      </div>
+      <OpenerVideo />
     </>
   )
 }
