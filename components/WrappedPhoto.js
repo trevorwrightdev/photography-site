@@ -1,8 +1,10 @@
 import Image from 'next/image'
 
-const WrappedPhoto = ({col, src, height, width}) => {
+import styles from '../styles/Photography.module.css'
+
+const WrappedPhoto = ({col, row, src, height, width}) => {
   return (
-    <div style={{position: 'relative', height: height, width: width, gridColumn: col}}>
+    <div style={{position: 'relative', height: height, width: width, gridColumn: col, gridRow: row}}>
         <Image src={src} layout='fill'/>
     </div>
   )
