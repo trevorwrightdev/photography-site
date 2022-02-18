@@ -7,6 +7,8 @@ import janae1 from '../public/photos/IMG_0152.JPG'
 import needle from '../public/photos/DSC09757.JPG'
 import savannah1 from '../public/photos/DSC00253-2.jpg'
 import rock from '../public/photos/DSC09546.JPG'
+import dog1 from '../public/photos/DSC09789.JPG'
+import lake from '../public/photos/DSC09074.JPG'
 
 import styles from '../styles/Photography.module.css'
 
@@ -18,11 +20,13 @@ const Photos = ({animRight}) => {
             <div className={styles.column}>
               <WrappedPhoto src={janae1} height='562.5px' width='450px'/>
               <WrappedPhoto src={savannah1} height='300.58px' width='450px'/>
+              <WrappedPhoto src={dog1} height='360px' width='450px'/>
             </div>
             {/* Column 2 */}
             <div className={styles.column}>
               <WrappedPhoto src={needle} height='300.75px' width='450px' />
-              <WrappedPhoto src={needle} height='300.75px' width='450px' />
+              <WrappedPhoto src={lake} height='562.5px' width='450px' />
+              <WrappedPhoto src={rock} height='300.56px' width='450px' />
             </div>
 
             {/* Column 3 */}
