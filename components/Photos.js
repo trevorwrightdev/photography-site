@@ -5,10 +5,10 @@ import WrappedPhoto from './WrappedPhoto'
 
 import styles from '../styles/Photography.module.css'
 
-const Photos = ({animRight, swiped}) => {
+const Photos = ({animRight}) => {
   return (
     <div className={styles.overflowContainer}>
-      <motion.div animate={{x: animRight}} transition={{type: 'spring', stiffness: 40}} className={styles.photoContainer} style={swiped ? {background: red} : {}}>
+      <motion.div animate={{x: animRight}} transition={{type: 'spring', stiffness: 40}} className={styles.photoContainer}>
         {/* Column 1 */}
         <div className={styles.column}>
           <WrappedPhoto src='/photos/janae1.jpg' height='562.5px' width='450px'/>

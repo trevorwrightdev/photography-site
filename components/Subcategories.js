@@ -12,6 +12,7 @@ const Subcategories = ({state, click0, click1, click2}) => {
         <h2 className={styles.subTitles} onClick={click1} style={state === 1 ? {textDecoration: 'underline'} : {}}>PLACES</h2>
         <h2 className={styles.subTitles} onClick={click2} style={state === 2 ? {textDecoration: 'underline'} : {}}>THINGS</h2>
       </div>
+      <div className={styles.invisSubcategories}></div>
     </>
   )
 }
