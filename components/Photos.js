@@ -1,24 +1,11 @@
-import Image from 'next/image'
 import { motion } from 'framer-motion'
 import WrappedPhoto from './WrappedPhoto'
 
-// * Photo imports
-// import janae1 from '../public/photos/janae1.jpg'
-// import needle from '../public/photos/needle.jpg'
-// import savannah1 from '../public/photos/savannah1.jpg'
-// import savannahBook from '../public/photos/savannahBook.jpg'
-// import savannahGlasses from '../public/photos/savannahGlasses.jpg'
-// import rock from '../public/photos/rock.jpg'
-// import dog1 from '../public/photos/dog1.jpg'
-// import lake from '../public/photos/lake.jpg'
-// import ellie from '../public/photos/blueGirl.jpg'
-// import harper1 from '../public/photos/harper1.jpg'
-// import timesSquare from '../public/photos/TimesSquareFinal.jpg'
-// import canyon from '../public/photos/canyon.jpg'
-// import steelWool from '../public/photos/steelwool.jpg'
-// import salt from '../public/photos/salt.jpg'
-// import frozen from '../public/photos/frozen.jpg'
-// import flip from '../public/photos/flip.jpg'
+// TODO: Make the image sizes dyanmic... we have to think of a nice way to do this. We obviously could
+// TODO: just give everything a classname and do it manually, but it would be nice not to have to
+
+// TODO: Let the wrapped photo take the pixel ratio as a prop. Then we calculate the height and width based on screen size.
+// TODO: Shouldn't be too hard. Use calc(100% - somepx) to get consistent widths on edges.
 
 import styles from '../styles/Photography.module.css'
 
