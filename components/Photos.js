@@ -1,11 +1,7 @@
 import { motion } from 'framer-motion'
 import WrappedPhoto from './WrappedPhoto'
 
-// TODO: Make the image sizes dyanmic... we have to think of a nice way to do this. We obviously could
-// TODO: just give everything a classname and do it manually, but it would be nice not to have to
-
-// TODO: Let the wrapped photo take the pixel ratio as a prop. Then we calculate the height and width based on screen size.
-// TODO: Shouldn't be too hard. Use calc(100% - somepx) to get consistent widths on edges.
+// TODO: Use vw to make photo width, and then use vw to calculate photo height based on pixel ratio.
 
 import styles from '../styles/Photography.module.css'
 
