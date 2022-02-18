@@ -8,7 +8,7 @@ import styles from '../styles/Photography.module.css'
 const Photos = ({animRight}) => {
   return (
     <div className={styles.overflowContainer}>
-      <motion.div animate={{x: animRight}} transition={{type: 'spring', stiffness: 40}} className={styles.photoContainer}>
+      <motion.div drag='x'/*animate={{x: animRight}}*/ transition={{type: 'spring', stiffness: 40}} className={styles.photoContainer}>
         {/* Column 1 */}
         <div className={styles.column}>
           <WrappedPhoto src='/photos/janae1.jpg' ratio={1.25}/>
