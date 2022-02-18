@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 import styles from '../styles/Photography.module.css'
 
 // * Use useState to control 3 states which will show the correct images. 
