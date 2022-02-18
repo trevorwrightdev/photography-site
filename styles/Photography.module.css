@@ -20,11 +20,17 @@
 }
 
 .photoContainer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 30px;
-    justify-items: center;
+    display: flex;
+    flex-direction: row;
     width: 300%;
+}
+
+.column {
+    width: 33.33333%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
 
 
