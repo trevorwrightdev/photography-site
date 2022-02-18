@@ -15,6 +15,10 @@ import ellie from '../public/photos/IMG_0162.JPG'
 import harper1 from '../public/photos/harper1.JPG'
 import timesSquare from '../public/photos/TimesSquareFinal.JPG'
 import canyon from '../public/photos/IMG_0145.JPG'
+import steelWool from '../public/photos/steelwool.JPG'
+import salt from '../public/photos/DSC09368.JPG'
+import frozen from '../public/photos/frozen.JPG'
+import flip from '../public/photos/IMG_0137.JPG'
 
 import styles from '../styles/Photography.module.css'
 
@@ -38,7 +42,11 @@ const Photos = ({animRight}) => {
               <WrappedPhoto src={lake} height='562.5px' width='450px' />
               <WrappedPhoto src={rock} height='300.56px' width='450px' />
               <WrappedPhoto src={timesSquare} height='300.62px' width='450px' />
+              <WrappedPhoto src={salt} height='562.4px' width='450px' />
               <WrappedPhoto src={canyon} height='300.57px' width='450px' />
+              <WrappedPhoto src={steelWool} height='300px' width='450px' />
+              <WrappedPhoto src={frozen} height='300.45px' width='450px' />
+              <WrappedPhoto src={flip} height='300.57px' width='450px' />
             </div>
 
             {/* Column 3 */}

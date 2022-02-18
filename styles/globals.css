@@ -17,7 +17,7 @@ html {
 	background: red;
 	position: fixed;
 	width: 100%;
-	z-index: 1;
+	z-index: 2;
 }
 /* nav and nav invisible need to have same height */
 .nav {
@@ -46,8 +46,6 @@ html {
 	height: 0;
 	width: 100%;
 	background: black;
-	/* position: absolute; */
-	z-index: 1;
 	display: flex;
 	justify-content: center;
 	align-items: center;

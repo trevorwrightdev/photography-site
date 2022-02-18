@@ -1,10 +1,22 @@
+/* * To undo the fixed subcategories, simply take position off
+* of fixed and then remove the invisible div in photography.js Also remove z-index here and navParent.
+* */
+
 .subcategories {
     width: 100%;
-    height: 100px;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+    background: black;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.invisNav {
+    width: 100%;
+    height: 50px;
 }
 
 .subTitles {

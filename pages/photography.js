@@ -3,6 +3,7 @@ import FullNav from '../components/FullNav'
 import Subcategories from '../components/Subcategories'
 import Photos from '../components/Photos'
 
+import styles from '../styles/Photography.module.css'
 
 export default function Photography({ }) {
 
@@ -18,6 +19,7 @@ export default function Photography({ }) {
     <>
       <FullNav />
       <Subcategories state={state} click0={() => changeColumn(0, '0')} click1={() => changeColumn(1, '-33.33333%')} click2={() => changeColumn(2, '-66.66666%')}/>
+      <div className={styles.invisNav}></div>
       <Photos animRight={animRight}/>
     </>
   )
