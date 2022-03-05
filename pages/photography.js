@@ -4,7 +4,6 @@ import Subcategories from '../components/Subcategories'
 import Photos from '../components/Photos'
 
 export default function Photography({ }) {
-
   const [state, setState] = useState(0)
   const [animRight, setRightAnim] = useState('0')
 
@@ -12,6 +11,8 @@ export default function Photography({ }) {
     setState(num)
     setRightAnim(distance)
   }
+
+  // ! NAVBAR SCROLLING IS ONLY FIXED ON THIS PHOTOGRAPHY PAGE
 
   return (
     <>
