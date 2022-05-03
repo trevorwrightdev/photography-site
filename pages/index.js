@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <>
       <Meta title='Martinos'/>
-      <FullNav />
       <OpenerVideo />
     </>
   )

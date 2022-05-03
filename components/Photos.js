@@ -1,8 +1,6 @@
 import { motion } from 'framer-motion'
 import WrappedPhoto from './WrappedPhoto'
 
-//TODO: Use vw to make photo width, and then use vw to calculate photo height based on pixel ratio.
-
 import styles from '../styles/Photography.module.css'
 
 const Photos = ({animRight}) => {

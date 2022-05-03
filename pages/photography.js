@@ -12,11 +12,8 @@ export default function Photography({ }) {
     setRightAnim(distance)
   }
 
-  // ! NAVBAR SCROLLING IS ONLY FIXED ON THIS PHOTOGRAPHY PAGE
-
   return (
     <>
-      <FullNav />
       <Subcategories state={state} click0={() => changeColumn(0, '0')} click1={() => changeColumn(1, '-33.33333%')} click2={() => changeColumn(2, '-66.66666%')}/>
       <Photos animRight={animRight}/>
     </>
