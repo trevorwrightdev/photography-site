@@ -25,7 +25,7 @@ const FullNav = () => {
     <>
         <div className='navParent'>
             <NavBar clickEvent={menuIsOpen ? menuClose : menuOpen}/>
-            <MobileNav menuIsOpen={menuIsOpen} heightAnim={height}/>
+            <MobileNav closeMenu={menuClose} menuIsOpen={menuIsOpen} heightAnim={height}/>
         </div>
         <div className='navInvisible'></div>
     </>
