@@ -3,3 +3,9 @@
     width: 100%;
     overflow: hidden;
 }
+
+.vid {
+    position: relative;
+    bottom: 10%;
+    
+}
