@@ -1,5 +1,5 @@
 .videoContainer {
-    height: 92vh;
+    height: calc(100vh - 70px);
     width: 100%;
     overflow: hidden;
 }
