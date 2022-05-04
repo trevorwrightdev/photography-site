@@ -6,6 +6,8 @@
 
 .vid {
     position: relative;
-    bottom: 10%;
-    
+    bottom: 11%;
+    height: 115%;
+    width: 100%;
+    object-fit: cover;
 }
