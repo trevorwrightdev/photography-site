@@ -11,3 +11,11 @@
     width: 100%;
     object-fit: cover;
 }
+
+.bottomBar {
+    position: absolute;
+    bottom: 0;
+    background: black;
+    height: 70px;
+    width: 100%;
+}

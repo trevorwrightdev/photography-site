@@ -7,6 +7,7 @@ export default function Home() {
     <>
       <Meta title='Martinos'/>
       <OpenerVideo />
+      <div className={styles.bottomBar}/>
     </>
   )
 }
