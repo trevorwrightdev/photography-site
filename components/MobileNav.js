@@ -15,7 +15,7 @@ const MobileNav = ({menuIsOpen, closeMenu }) => {
         },
         visible: {
             height: '170px',
-            width: '180px',
+            width: '185px',
             marginLeft: '0px',
             transition: {
                 type: 'spring',
