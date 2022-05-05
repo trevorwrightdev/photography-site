@@ -4,7 +4,7 @@ const OpenerVideo = () => {
 
   return (
     <div className={styles.videoContainer}>
-      <video className={styles.vid} src='./web-vid.mp4' muted loop autoPlay></video>
+      <video className={styles.vid} playsInline src='./web-vid.mp4' muted loop autoPlay></video>
     </div>
   );
 };
