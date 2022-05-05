@@ -15,8 +15,7 @@
 
 .vid {
     position: relative;
-    bottom: 11%;
-    height: 125%;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     overflow: hidden;
