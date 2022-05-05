@@ -3,7 +3,6 @@ import { motion } from 'framer-motion'
 
 const MobileNav = ({ heightAnim, menuIsOpen, closeMenu }) => {
 
-
     return (
     <motion.div className='mobileNav' animate={{height: heightAnim}} transition={{duration: 0.25}}>
         <div className='mobileNavWords' style={menuIsOpen ? {display: 'flex'} : {display: 'none'}}>
