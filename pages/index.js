@@ -10,9 +10,9 @@ export default function Home() {
       <OpenerVideo />
       <div className={styles.bottomBar}>
         <Link href='/photography'><p>PHOTOGRAPHY</p></Link>
-        <Link href='/photography'><p>VIDEOGRAPHY</p></Link>
-        <Link href='/photography'><p>ABOUT</p></Link>
-        <Link href='/photography'><p>CONTACT</p></Link>
+        <Link href='/videography'><p>VIDEOGRAPHY</p></Link>
+        <Link href='/about'><p>ABOUT</p></Link>
+        <Link href='/contact'><p>CONTACT</p></Link>
       </div>
     </>
   )
