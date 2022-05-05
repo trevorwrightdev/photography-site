@@ -1,5 +1,5 @@
 .videoContainer {
-    height: calc(100vh - 70px);
+    height: calc(100vh - 140px);
     width: 100%;
     overflow: hidden;
 }
@@ -7,7 +7,7 @@
 .vid {
     position: relative;
     bottom: 11%;
-    height: 115%;
+    height: 125%;
     width: 100%;
     object-fit: cover;
 }
