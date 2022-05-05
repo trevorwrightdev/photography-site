@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    padding-bottom: 60px;
+}
+
+.container > h1 {
+    text-decoration: underline;
+}
+
+.video {
+    width: 95vw;
+    height: calc(95vw * 0.56);
+    max-width: 900px;
+    max-height: calc(900px * 0.56);
+}
