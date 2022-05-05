@@ -12,10 +12,7 @@ const FullNav = () => {
     const menuOpen = () => {
         setHeight('170px')
         setLocked(true)
-
-        setTimeout(() => {
-            setMenuOpen(true)
-        }, 100)
+        setMenuOpen(true)        
     }
 
     const menuClose = () => {
