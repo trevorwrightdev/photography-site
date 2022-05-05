@@ -19,20 +19,21 @@
     height: 125%;
     width: 100%;
     object-fit: cover;
+    overflow: hidden;
 }
 
 .bottomBar {
     position: fixed;
-    bottom: -430px;
+    bottom: 0;
     background: black;
-    height: 500px;
+    height: 70px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 25px;
     font-size: 16px;
-    padding: 25px;
 }
 
 .bottomBar p {
