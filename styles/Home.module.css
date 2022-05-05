@@ -15,10 +15,10 @@
 
 .vid {
     position: relative;
-    height: 100%;
+    bottom: 11%;
+    height: 125%;
     width: 100%;
     object-fit: cover;
-    overflow: hidden;
 }
 
 .bottomBar {
