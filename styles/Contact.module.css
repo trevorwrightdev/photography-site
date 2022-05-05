@@ -66,6 +66,7 @@
     border-radius: none;
     font-family: 'Francois One', sans-serif;
     background: white;
+    color: black !important;
     border-style: none;
     cursor: pointer;
 }
