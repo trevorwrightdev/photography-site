@@ -14,7 +14,6 @@ html {
 }
 
 .navParent {
-	background: red;
 	position: fixed;
 	width: 100%;
 	z-index: 2;
@@ -42,10 +41,14 @@ html {
 
 .mobileNav {
 	height: 0;
-	width: 100%;
+	width: 180px;
+	position: relative;
+	left: calc(100vw - 180px);
 	background: black;
 	display: flex;
 	overflow: hidden;
+	border-bottom-left-radius: 10px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .mobileNavWords {
