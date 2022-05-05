@@ -15,12 +15,10 @@ const MobileNav = ({menuIsOpen, closeMenu }) => {
         },
         visible: {
             height: '170px',
-            width: '185px',
+            width: '180px',
             marginLeft: '0px',
             transition: {
-                type: 'spring',
-                stiffness: 200,
-                mass: 0.3,
+                duration: 0.1
             }
         }
     }
