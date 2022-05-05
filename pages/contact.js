@@ -18,7 +18,7 @@ export default function Contact({ }) {
           </textarea>
           <button type='submit'>SEND</button>
         </form>
-        <p className={styles.emailContact}>or email:<br /><a href={`mailto:${email}`}>your@email.com</a></p>
+        <p className={styles.emailContact}>or email:<br /><a href={`mailto:${email}`}>{email}</a></p>
       </div>
     </>
   )
