@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from 'next/link'
 import signature from './../public/lee-signature-new.png'
-import menuIcon from '../public/images/segment_white_24dp.svg'
+import menuIcon from '../public/images/segment_white_24dp.png'
 
 const NavBar = ({ clickEvent, closeMenu }) => {
   return (
