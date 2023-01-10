@@ -7,7 +7,7 @@ const NavBar = ({ clickEvent, closeMenu }) => {
   return (
     <div className='nav'>
       <div className='menuIconContainer'>
-        <Image onClick={clickEvent} src={menuIcon} layout='fill' unoptimized/>
+        <Image onClick={clickEvent} src={menuIcon} layout='fill'/>
       </div>
       <div onClick={closeMenu} className='sig'>
         <Link href='/'>
