@@ -23,7 +23,6 @@ const MobileNav = ({menuIsOpen, closeMenu }) => {
         }
     }
 
-
     return (
     <motion.div className='mobileNav' animate={menuIsOpen ? 'visible' : 'hidden'} variants={variant}>
         <div className='mobileNavWords' style={menuIsOpen ? {display: 'flex'} : {display: 'none'}}>
