@@ -6,7 +6,6 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <>
-      <Meta title='Martinos'/>
       <div className={styles.container}>
         <OpenerVideo />
         <div className={styles.bottomBar}>
@@ -14,6 +13,7 @@ export default function Home() {
           <Link href='/videography'><p>VIDEOGRAPHY</p></Link>
           <Link href='/about'><p>ABOUT</p></Link>
           <Link href='/contact'><p>CONTACT</p></Link>
+          <Link href='/TMA295'><p>TMA 295</p></Link>
         </div>
       </div>
     </>

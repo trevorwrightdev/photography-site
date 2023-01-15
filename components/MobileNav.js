@@ -14,7 +14,7 @@ const MobileNav = ({menuIsOpen, closeMenu }) => {
             }
         },
         visible: {
-            height: '170px',
+            height: '190px',
             width: '180px',
             marginLeft: '0px',
             transition: {
@@ -30,6 +30,7 @@ const MobileNav = ({menuIsOpen, closeMenu }) => {
             <Link href='/videography'><h1 onClick={closeMenu}>VIDEOGRAPHY</h1></Link>
             <Link href='/about'><h1 onClick={closeMenu}>ABOUT</h1></Link>
             <Link href='/contact'><h1 onClick={closeMenu}>CONTACT</h1></Link>
+            <Link href='/TMA295'><h1 onClick={closeMenu}>TMA 295</h1></Link>
         </div>
     </motion.div>
     )

@@ -1,4 +1,4 @@
-
+import Meta from '../components/Meta'
 import ScreenContext from '../components/ScreenContext'
 import { useState, useEffect } from 'react'
 import FullNav from '../components/FullNav'
@@ -22,6 +22,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <ScreenContext.Provider value={[locked, setLocked]}>
+      <Meta title='Lee Martin'/>
       <FullNav />
       <Component {...pageProps} />
     </ScreenContext.Provider>
