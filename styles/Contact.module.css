@@ -5,7 +5,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
+    padding-bottom: 15px;
 }
 
 .container > h1 {
@@ -73,4 +74,16 @@
 
 .form > p {
     height: 10px;
+}
+
+.socialsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
