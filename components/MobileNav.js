@@ -28,9 +28,9 @@ const MobileNav = ({menuIsOpen, closeMenu }) => {
         <div className='mobileNavWords' style={menuIsOpen ? {display: 'flex'} : {display: 'none'}}>
             <Link href='/photography'><h1 onClick={closeMenu}>PHOTOGRAPHY</h1></Link>
             <Link href='/videography'><h1 onClick={closeMenu}>VIDEOGRAPHY</h1></Link>
+            <Link href='/TMA295'><h1 onClick={closeMenu}>TMA 295</h1></Link>
             <Link href='/about'><h1 onClick={closeMenu}>ABOUT</h1></Link>
             <Link href='/contact'><h1 onClick={closeMenu}>CONTACT</h1></Link>
-            <Link href='/TMA295'><h1 onClick={closeMenu}>TMA 295</h1></Link>
         </div>
     </motion.div>
     )
