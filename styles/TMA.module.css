@@ -4,11 +4,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .grid {
+    margin: 100px 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
@@ -24,4 +24,12 @@
 .description {
    width: 95vw;
    max-width: 900px; 
+}
+
+.topContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
 }

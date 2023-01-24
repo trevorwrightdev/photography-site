@@ -17,7 +17,10 @@ export default function TMA295() {
   return (
     <>
       <div className={styles.container}>
-        <h1>Music Mosaic</h1>
+        <div className={styles.topContainer}>
+          <h1>Music Mosaic</h1>
+          <h3>Jan 24, 2023</h3>
+        </div>
         <Video src={'FgKNJycPTpo'}/>
         <div className={styles.grid}>
           <Image src={glacier} className={styles.photo}/>
