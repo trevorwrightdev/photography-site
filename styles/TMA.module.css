@@ -18,7 +18,8 @@
 
 .photo {
     width: 100%;
-    background: #121212;
+    height: 200px;
+    position: relative;
 }
 
 .description {

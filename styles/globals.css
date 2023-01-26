@@ -13,6 +13,10 @@ html {
 	color: white;
 }
 
+a {
+	color: white;
+}
+
 .navParent {
 	position: fixed;
 	width: 100%;
