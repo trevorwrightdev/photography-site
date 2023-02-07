@@ -8,6 +8,7 @@ export default function TMA295() {
     <>
       <div className={styles.container}>
         <GifProject />
+        <div className={styles.separator}/>
         <MusicMosaic />
       </div>
     </>

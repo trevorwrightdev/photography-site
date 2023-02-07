@@ -1,7 +1,6 @@
 import styles from '../styles/GifProject.module.css'
 import gif from '../public/gif-cinema.gif'
 import Image from 'next/image'
-import { StyleRegistry } from 'styled-jsx'
 
 const GifProject = () => {
   return (
