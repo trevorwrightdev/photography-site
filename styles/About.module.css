@@ -12,6 +12,16 @@
     background: #121212;
     width: 90vw;
     max-width: 700px;
+    aspect-ratio: 2048 / 1638;
+    position: relative;
+}
+
+.portrait {
+    background: #121212;
+    width: 90vw;
+    max-width: 700px;
+    aspect-ratio: 1366 / 2048;
+    position: relative;
 }
 
 .aboutContainer > p {

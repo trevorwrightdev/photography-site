@@ -35,6 +35,11 @@
     font-size: 16px;
 }
 
+.bottomBarSpacer {
+    height: 70px;
+    width: 100%;
+}
+
 .bottomBar p {
     cursor: pointer;
 }

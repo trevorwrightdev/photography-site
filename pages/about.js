@@ -8,14 +8,14 @@ export default function About({ }) {
     <>
       <div className={styles.aboutContainer}>
         <div className={styles.dockImage}>
-          <Image src={dock}/>
+          <Image src={dock} fill style={{objectFit: 'cover'}}/>
         </div>
         <h1 style={{textDecoration: 'underline'}}>ABOUT ME</h1>
         <p>
           My friends and I loved to do trampoline tricks when I was a freshman in high school. We got so good that we wanted to film it. So my two friends and I took the trampoline to a huge open field in autumn. We got our 3 school iPads together and filmed my first ever video. I also bought a GoPro Hero 4 for this video. Ever since that experience I have just fallen in love with filmmaking, specifically cinematography and editing. 
         </p>
-        <div className={styles.dockImage}>
-          <Image src={portrait}/>
+        <div className={styles.portrait}>
+          <Image src={portrait} fill style={{objectFit: 'cover'}}/>
         </div>
         <p>
           Skills & Proficient Programs <br />
