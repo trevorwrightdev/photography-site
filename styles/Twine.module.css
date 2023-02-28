@@ -11,13 +11,3 @@
     width: 95vw;
     max-width: 900px; 
 }
-
-.iframe {
-    -ms-overflow-style: none;  
-    scrollbar-width: none;  
-}
-
-.iframe::-webkit-scrollbar {
-    display: none;
-}
-
