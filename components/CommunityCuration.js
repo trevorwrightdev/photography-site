@@ -7,6 +7,28 @@ import Amanda2 from '../public/community-curation/Amanda/Amanda 2.jpg'
 import Amanda3 from '../public/community-curation/Amanda/Amanda 3.jpg'
 import Amanda4 from '../public/community-curation/Amanda/Amanda 4.jpg'
 import Brennan from '../public/community-curation/Brennan/Brennan Drawing.png'
+import Cameron from '../public/community-curation/Cameron/Cameron.jpg'
+import Colleen from '../public/community-curation/Colleen/Colleen.jpg'
+import Courtney from '../public/community-curation/Courtney/Courtney.jpg'
+import Ellen from '../public/community-curation/Ellen/Ellen.jpg'
+import Emily1 from '../public/community-curation/Emily/Emily 1.jpg'
+import Emily2 from '../public/community-curation/Emily/Emily 2.jpg'
+import Emily3 from '../public/community-curation/Emily/Emily 3.jpg'
+import Emily4 from '../public/community-curation/Emily/Emily 4.jpg'
+import Emily5 from '../public/community-curation/Emily/Emily 5.jpg'
+import Ethan1 from '../public/community-curation/Ethan/Ethan 1.jpg'
+import Ethan2 from '../public/community-curation/Ethan/Ethan 2.jpg'
+import Ethan3 from '../public/community-curation/Ethan/Ethan 3.jpg'
+import Greg from '../public/community-curation/Greg/Greg.png'
+import Henry from '../public/community-curation/Henry/Henry.png'
+import Hunter from '../public/community-curation/Hunter/Hunter.jpg'
+import Ian from '../public/community-curation/Ian/Ian.png'
+import Jacob from '../public/community-curation/Jacob/Jacob.jpeg'
+import Jarod from '../public/community-curation/Jarod/Jarod.jpeg'
+import Jessica from '../public/community-curation/Jessica/Jessica.jpg'
+import Mckay1 from '../public/community-curation/Mckay/McKay Mannequin Store-1.png'
+import Mckay2 from '../public/community-curation/Mckay/McKay Mannequin Store-2.png'
+import Mckay3 from '../public/community-curation/Mckay/McKay Mannequin Store-3.png'
 
 const CommunityCuration = () => {
   return (
@@ -20,7 +42,7 @@ const CommunityCuration = () => {
           <div className={styles.column}>
             <h1>Adam</h1>
             <div className={styles.imageContainer}>
-              <Image src={Adam} fill style={{ objectFit: 'contain' }} alt=''/>
+              <Image src={Adam} fill style={{ objectFit: 'contain' }} alt='' />
             </div>
             <p className={styles.description}>
               My wife edited this photo of me, it turned out pretty cool 👌
@@ -29,7 +51,7 @@ const CommunityCuration = () => {
           <div className={styles.column}>
             <h1>Ailed</h1>
             <div className={styles.imageContainer}>
-              <Image src={Ailed} fill style={{ objectFit: 'contain' }} alt=''/>
+              <Image src={Ailed} fill style={{ objectFit: 'contain' }} alt='' />
             </div>
             <p className={styles.description}>
               It is important to me because it was the first picture I took with
@@ -40,16 +62,36 @@ const CommunityCuration = () => {
             <h1>Amanda</h1>
             <div className={styles.imageRow}>
               <div className={styles.imageContainer}>
-                <Image src={Amanda1} fill style={{ objectFit: 'contain' }} alt=''/>
+                <Image
+                  src={Amanda1}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  alt=''
+                />
               </div>
               <div className={styles.imageContainer}>
-                <Image src={Amanda2} fill style={{ objectFit: 'contain' }} alt=''/>
+                <Image
+                  src={Amanda2}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  alt=''
+                />
               </div>
               <div className={styles.imageContainer}>
-                <Image src={Amanda3} fill style={{ objectFit: 'contain' }} alt=''/>
+                <Image
+                  src={Amanda3}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  alt=''
+                />
               </div>
               <div className={styles.imageContainer}>
-                <Image src={Amanda4} fill style={{ objectFit: 'contain' }} alt=''/>
+                <Image
+                  src={Amanda4}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  alt=''
+                />
               </div>
             </div>
             <p className={styles.description}>
@@ -66,7 +108,12 @@ const CommunityCuration = () => {
           <div className={styles.column}>
             <h1>Brennan</h1>
             <div className={styles.imageContainer}>
-              <Image src={Brennan} fill style={{ objectFit: 'contain' }} alt=''/>
+              <Image
+                src={Brennan}
+                fill
+                style={{ objectFit: 'contain' }}
+                alt=''
+              />
             </div>
             <p className={styles.description}>
               I made this for my sister of my niece because I feel like there’s
@@ -78,15 +125,288 @@ const CommunityCuration = () => {
           <div className={styles.column}>
             <h1>Brooke</h1>
             <video
-                className={styles.vid}
-                playsInline
-                src='./community-curation/Brooke/Brooke-Video.mp4'
-                controls
-              ></video>
+              className={styles.vid}
+              playsInline
+              src='./community-curation/Brooke/Brooke-Video.mp4'
+              controls
+            ></video>
             <p className={styles.description}>
               I think the most recent thing I’ve made is this short film thingy
               😂 made it for a class assignment, it’s not good but it’s kinda
               funny
+            </p>
+          </div>
+          <div className={styles.column}>
+            <h1>Cameron</h1>
+            <div className={styles.imageContainer}>
+              <Image
+                src={Cameron}
+                fill
+                style={{ objectFit: 'contain' }}
+                alt=''
+              />
+            </div>
+            <p className={styles.description}>
+              The reason why I did this was because of an old game I played
+              called Metroid Prime Remastered and how it’s atmospheric beauty
+              was so unique that I consider it still ahead of it’s time
+              (especially with how finely polished it is now). Sci-Fi has become
+              an interest for me ever since I played Metroid Prime and I hope to
+              continue to be inspired and create more atmospheric designs.
+            </p>
+          </div>
+          <div className={styles.column}>
+            <h1>Colleen</h1>
+            <div className={styles.imageContainer}>
+              <Image
+                src={Colleen}
+                fill
+                style={{ objectFit: 'contain' }}
+                alt=''
+              />
+            </div>
+            <p className={styles.description}>
+              I painted this portrait of my uncle. After he passed away painting
+              this brought me comfort. I then blessed my aunt with it. She loves
+              it.
+            </p>
+          </div>
+          <div className={styles.column}>
+            <h1>Courtney</h1>
+            <div className={styles.imageContainer}>
+              <Image
+                src={Courtney}
+                fill
+                style={{ objectFit: 'contain' }}
+                alt=''
+              />
+            </div>
+            <p className={styles.description}>
+              I made a blanket for my cat! Its significant to me because I love
+              the pattern and my cat and I like having a physical representation
+              of my love for my cat so he knows.
+            </p>
+          </div>
+          <div className={styles.column}>
+            <h1>Ellen</h1>
+            <div className={styles.imageContainer}>
+              <Image src={Ellen} fill style={{ objectFit: 'contain' }} alt='' />
+            </div>
+            <p className={styles.description}>
+              I call it, "A Glimpse into Eternity." It is significant to me
+              because it is where I can find peace on Earth.
+            </p>
+          </div>
+          <div className={styles.column}>
+            <h1>Emily</h1>
+            <div className={styles.imageRow}>
+              <div className={styles.imageContainer}>
+                <Image
+                  src={Emily1}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  alt=''
+                />
+              </div>
+              <div className={styles.imageContainer}>
+                <Image
+                  src={Emily2}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  alt=''
+                />
+              </div>
+              <div className={styles.imageContainer}>
+                <Image
+                  src={Emily3}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  alt=''
+                />
+              </div>
+              <div className={styles.imageContainer}>
+                <Image
+                  src={Emily4}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  alt=''
+                />
+              </div>
+              <div className={styles.imageContainer}>
+                <Image
+                  src={Emily5}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  alt=''
+                />
+              </div>
+            </div>
+            <p className={styles.description}>
+              I wire wrap crystals and sell them at Farmer’s Markets for fun!
+            </p>
+          </div>
+          <div className={styles.column}>
+            <h1>Ethan</h1>
+            <div className={styles.imageRow}>
+              <div className={styles.imageContainer}>
+                <Image
+                  src={Ethan1}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  alt=''
+                />
+              </div>
+              <div className={styles.imageContainer}>
+                <Image
+                  src={Ethan2}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  alt=''
+                />
+              </div>
+              <div className={styles.imageContainer}>
+                <Image
+                  src={Ethan3}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  alt=''
+                />
+              </div>
+            </div>
+            <p className={styles.description}>
+              These are maps I made for some dnd stuff iv been planning the
+              reason I like them is I was able to do a good job after a few
+              years of not being able to do dnd or maps in general and there are
+              things I'd like to fix but ultimately it was a show that I still
+              can do this.
+            </p>
+          </div>
+          <div className={styles.column}>
+            <h1>Greg</h1>
+            <div className={styles.imageContainer}>
+              <Image src={Greg} fill style={{ objectFit: 'contain' }} alt='' />
+            </div>
+            <p className={styles.description}>
+              My life has had a lot of ups and downs. This photo means a lot to
+              me because it shows me that no matter what I have been through God
+              can help me accomplish everything I need to.
+            </p>
+          </div>
+          <div className={styles.column}>
+            <h1>Henry</h1>
+            <div className={styles.imageContainer}>
+              <Image src={Henry} fill style={{ objectFit: 'contain' }} alt='' />
+            </div>
+            <p className={styles.description}>
+              This is art to me. I created both of these and I’m planning on
+              recreating it several more times. It speaks to me. I feel like I
+              could be in that moment on the side of a lake or river, even
+              though it’s just a combination of colors on a piece of paper.
+            </p>
+          </div>
+          <div className={styles.column}>
+            <h1>Hunter</h1>
+            <div className={styles.imageContainer}>
+              <Image
+                src={Hunter}
+                fill
+                style={{ objectFit: 'contain' }}
+                alt=''
+              />
+            </div>
+            <p className={styles.description}>
+              It significant cause soldering is hard and I feel like I did a
+              really good job at making this board look nice.
+            </p>
+          </div>
+          <div className={styles.column}>
+            <h1>Ian</h1>
+            <div className={styles.imageContainer}>
+              <Image src={Ian} fill style={{ objectFit: 'contain' }} alt='' />
+            </div>
+            <p className={styles.description}>
+              This work of art is significant to me because this bagel can
+              represent my life, beautifully chaotic. While this bagel has
+              everything seasoning, chive and onion cream cheese, eggs with
+              cheddar and feta cheese, topped with truffle salt and balsamic
+              vinegar is okay on its own. But together is magical even though it
+              can seem overwhelming.
+            </p>
+          </div>
+          <div className={styles.column}>
+            <h1>Jacob</h1>
+            <div className={styles.imageContainer}>
+              <Image src={Jacob} fill style={{ objectFit: 'contain' }} alt='' />
+            </div>
+            <p className={styles.description}>
+              Here’s a picture of me as a kid I found in a scrapbook my mom made
+              lol. This is significant to me because it’s a good reminder of how
+              far I’ve come 😂
+            </p>
+          </div>
+          <div className={styles.column}>
+            <h1>Jarod</h1>
+            <div className={styles.imageContainer}>
+              <Image src={Jarod} fill style={{ objectFit: 'contain' }} alt='' />
+            </div>
+            <p className={styles.description}>
+              The reason why this is significant to me is because even with a
+              lack of color in this world, when there is something with color,
+              it stands out more.
+            </p>
+          </div>
+          <div className={styles.column}>
+            <h1>Jessica</h1>
+            <div className={styles.imageContainer}>
+              <Image
+                src={Jessica}
+                fill
+                style={{ objectFit: 'contain' }}
+                alt=''
+              />
+            </div>
+            <p className={styles.description}>
+              I love this piece because it was an opportunity for me to learn
+              new techniques. This was the first art I outlined with a quill and
+              one of my first attempts at multi color shading. I had a lot of
+              fun figuring out how to balance the 2 forms of ink.
+            </p>
+          </div>
+          <div className={styles.column}>
+            <h1>McKay</h1>
+            <div className={styles.imageRow}>
+              <div className={styles.imageContainer}>
+                <Image
+                  src={Mckay1}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  alt=''
+                />
+              </div>
+              <div className={styles.imageContainer}>
+                <Image
+                  src={Mckay2}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  alt=''
+                />
+              </div>
+              <div className={styles.imageContainer}>
+                <Image
+                  src={Mckay3}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  alt=''
+                />
+              </div>
+            </div>
+
+            <p className={styles.description}>
+              Here is a sketch I recently wrote for Divine Comedy. I consider
+              comedy to be an art form because it picks people up and can
+              distract them from the worries of life, even while dissecting
+              those same worries. It’s something that digs into human truths to
+              be effective.
             </p>
           </div>
         </div>
