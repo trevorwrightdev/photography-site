@@ -137,7 +137,7 @@ const CommunityCuration = () => {
             <video
               className={styles.vid}
               playsInline
-              src='./community-curation/Brooke/Brooke-Video.mp4'
+              src='./community-curation/Brooke/Brooke Video.mp4'
               controls
             ></video>
             <p className={styles.description}>
