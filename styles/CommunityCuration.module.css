@@ -7,11 +7,13 @@
 }
 
 .description {
+  max-width: 800px;
   margin-top: 25px;
 }
 
 .column {
-  width: 1000px;
+  width: 800px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,11 +23,9 @@
 }
 
 .carousel {
-  width: 1000px;
-  gap: 15px;
+  width: 800px;
   display: flex;
   overflow-x: scroll;
-  white-space: nowrap;
 }
 
 .row {
@@ -33,4 +33,13 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 15px;
+}
+
+.imageRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
 }
