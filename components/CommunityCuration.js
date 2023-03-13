@@ -29,6 +29,8 @@ import Jessica from '../public/community-curation/Jessica/Jessica.jpg'
 import Mckay1 from '../public/community-curation/Mckay/McKay Mannequin Store-1.png'
 import Mckay2 from '../public/community-curation/Mckay/McKay Mannequin Store-2.png'
 import Mckay3 from '../public/community-curation/Mckay/McKay Mannequin Store-3.png'
+import Nathan1 from '../public/community-curation/Nathan/Nathan 1.jpeg'
+import Nathan2 from '../public/community-curation/Nathan/Nathan 2.jpeg'
 
 const CommunityCuration = () => {
   return (
@@ -400,13 +402,44 @@ const CommunityCuration = () => {
                 />
               </div>
             </div>
-
             <p className={styles.description}>
               Here is a sketch I recently wrote for Divine Comedy. I consider
               comedy to be an art form because it picks people up and can
               distract them from the worries of life, even while dissecting
               those same worries. It’s something that digs into human truths to
               be effective.
+            </p>
+          </div>
+          <div className={styles.column}>
+            <h1>Nathan</h1>
+            <div className={styles.imageRow}>
+              <div className={styles.humanContainer}>
+                <Image
+                  src={Nathan1}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  alt=''
+                />
+              </div>
+              <div className={styles.humanContainer}>
+                <Image
+                  src={Nathan2}
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  alt=''
+                />
+              </div>
+            </div>
+            <p className={styles.description}>
+              This is my most recent Humans of Utah post. I took the photo and
+              interviewed this random guy I met at UVU. I find it significant
+              that someone I met out of the blue was willing to get photographed
+              and open up to a stranger about one of his most personal
+              experiences. It shows that everyone has a powerful story to share
+              and a struggle that they are going through. I think of this often
+              whenever I meet new people. It reminds me how great it is to
+              connect with others and how important it is to be kind to any
+              stranger.
             </p>
           </div>
         </div>
