@@ -1,25 +1,5 @@
 import styles from '../styles/CommunityCuration.module.css'
 import Image from 'next/image'
-import Adam from '../public/community-curation/Adam/Adam.png'
-import Ailed from '../public/community-curation/Ailed/Ailed.jpg'
-import Amanda1 from '../public/community-curation/Amanda/Amanda 1.jpg'
-import Amanda2 from '../public/community-curation/Amanda/Amanda 2.jpg'
-import Amanda3 from '../public/community-curation/Amanda/Amanda 3.jpg'
-import Amanda4 from '../public/community-curation/Amanda/Amanda 4.jpg'
-import Brennan from '../public/community-curation/Brennan/Brennan Drawing.png'
-import Cameron from '../public/community-curation/Cameron/Cameron.jpg'
-import Colleen from '../public/community-curation/Colleen/Colleen.jpg'
-import Courtney from '../public/community-curation/Courtney/Courtney.jpg'
-import Ellen from '../public/community-curation/Ellen/Ellen.jpg'
-import Emily1 from '../public/community-curation/Emily/Emily 1.jpg'
-import Emily2 from '../public/community-curation/Emily/Emily 2.jpg'
-import Emily3 from '../public/community-curation/Emily/Emily 3.jpg'
-import Emily4 from '../public/community-curation/Emily/Emily 4.jpg'
-import Emily5 from '../public/community-curation/Emily/Emily 5.jpg'
-import Ethan1 from '../public/community-curation/Ethan/Ethan 1.jpg'
-import Ethan2 from '../public/community-curation/Ethan/Ethan 2.jpg'
-import Ethan3 from '../public/community-curation/Ethan/Ethan 3.jpg'
-import Greg from '../public/community-curation/Greg/Greg.png'
 import Henry from '../public/community-curation/Henry/Henry.png'
 import Hunter from '../public/community-curation/Hunter/Hunter.jpg'
 import Ian from '../public/community-curation/Ian/Ian.png'
@@ -51,18 +31,22 @@ const CommunityCuration = () => {
         <div className={styles.row}>
           <div className={styles.column}>
             <h1>Adam</h1>
-            <div className={styles.imageContainer}>
-              <Image src={Adam} fill style={{ objectFit: 'contain' }} alt='' />
-            </div>
+            <img
+              src='./community-curation/Adam/Adam.png'
+              alt=''
+              style={{ height: '100%' }}
+            />
             <p className={styles.description}>
               My wife edited this photo of me, it turned out pretty cool 👌
             </p>
           </div>
           <div className={styles.column}>
             <h1>Ailed</h1>
-            <div className={styles.imageContainer}>
-              <Image src={Ailed} fill style={{ objectFit: 'contain' }} alt='' />
-            </div>
+            <img
+              src='./community-curation/Ailed/Ailed.jpg'
+              alt=''
+              style={{ height: '80%' }}
+            />
             <p className={styles.description}>
               It is important to me because it was the first picture I took with
               a camera that wasn’t my phone.
@@ -71,38 +55,26 @@ const CommunityCuration = () => {
           <div className={styles.column}>
             <h1>Amanda</h1>
             <div className={styles.imageRow}>
-              <div className={styles.imageContainer}>
-                <Image
-                  src={Amanda1}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                  src={Amanda2}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                  src={Amanda3}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                  src={Amanda4}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
+              <img
+                src='./community-curation/Amanda/Amanda 1.jpg'
+                alt=''
+                style={{ height: '100%', width: '25%' }}
+              />
+              <img
+                src='./community-curation/Amanda/Amanda 2.jpg'
+                alt=''
+                style={{ height: '100%', width: '25%' }}
+              />
+              <img
+                src='./community-curation/Amanda/Amanda 3.jpg'
+                alt=''
+                style={{ height: '100%', width: '25%' }}
+              />
+              <img
+                src='./community-curation/Amanda/Amanda 4.jpg'
+                alt=''
+                style={{ height: '100%', width: '25%' }}
+              />
             </div>
             <p className={styles.description}>
               This was my art project in 2020. I painted my backyard walls for
@@ -117,12 +89,11 @@ const CommunityCuration = () => {
           </div>
           <div className={styles.column}>
             <h1>Brennan</h1>
-            <div className={styles.imageContainer}>
-              <Image
-                src={Brennan}
-                alt=''
-              />
-            </div>
+            <img
+              src='./community-curation/Brennan/Brennan Drawing.png'
+              alt=''
+              style={{ height: '100%' }}
+            />
             <p className={styles.description}>
               I made this for my sister of my niece because I feel like there’s
               something about drawing a baby that helps artists understand human
@@ -146,14 +117,11 @@ const CommunityCuration = () => {
           </div>
           <div className={styles.column}>
             <h1>Cameron</h1>
-            <div className={styles.imageContainer}>
-              <Image
-                src={Cameron}
-                fill
-                style={{ objectFit: 'contain' }}
-                alt=''
-              />
-            </div>
+            <img
+              src='./community-curation/Cameron/Cameron.jpg'
+              alt=''
+              style={{ height: '100%' }}
+            />
             <p className={styles.description}>
               The reason why I did this was because of an old game I played
               called Metroid Prime Remastered and how it’s atmospheric beauty
@@ -165,14 +133,11 @@ const CommunityCuration = () => {
           </div>
           <div className={styles.column}>
             <h1>Colleen</h1>
-            <div className={styles.imageContainer}>
-              <Image
-                src={Colleen}
-                fill
-                style={{ objectFit: 'contain' }}
-                alt=''
-              />
-            </div>
+            <img
+              src='./community-curation/Colleen/Colleen.jpg'
+              alt=''
+              style={{ height: '100%' }}
+            />
             <p className={styles.description}>
               I painted this portrait of my uncle. After he passed away painting
               this brought me comfort. I then blessed my aunt with it. She loves
@@ -181,14 +146,11 @@ const CommunityCuration = () => {
           </div>
           <div className={styles.column}>
             <h1>Courtney</h1>
-            <div className={styles.imageContainer}>
-              <Image
-                src={Courtney}
-                fill
-                style={{ objectFit: 'contain' }}
-                alt=''
-              />
-            </div>
+            <img
+              src='./community-curation/Courtney/Courtney.jpg'
+              alt=''
+              style={{ height: '100%' }}
+            />
             <p className={styles.description}>
               I made a blanket for my cat! Its significant to me because I love
               the pattern and my cat and I like having a physical representation
@@ -197,9 +159,11 @@ const CommunityCuration = () => {
           </div>
           <div className={styles.column}>
             <h1>Ellen</h1>
-            <div className={styles.imageContainer}>
-              <Image src={Ellen} fill style={{ objectFit: 'contain' }} alt='' />
-            </div>
+            <img
+              src='./community-curation/Ellen/Ellen.jpg'
+              alt=''
+              style={{ height: '100%' }}
+            />
             <p className={styles.description}>
               I call it, "A Glimpse into Eternity." It is significant to me
               because it is where I can find peace on Earth.
@@ -208,46 +172,12 @@ const CommunityCuration = () => {
           <div className={styles.column}>
             <h1>Emily</h1>
             <div className={styles.imageRow}>
-              <div className={styles.imageContainer}>
-                <Image
-                  src={Emily1}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                  src={Emily2}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                  src={Emily3}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                  src={Emily4}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                  src={Emily5}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
+              <img src='./community-curation/Emily/Emily 1.jpg' alt='' style={{height: '100%', width: '20%'}}/>
+              <img src='./community-curation/Emily/Emily 2.jpg' alt='' style={{height: '100%', width: '20%'}}/>
+              <img src='./community-curation/Emily/Emily 3.jpg' alt='' style={{height: '100%', width: '20%'}}/>
+              <img src='./community-curation/Emily/Emily 4.jpg' alt='' style={{height: '100%', width: '20%'}}/>
+              <img src='./community-curation/Emily/Emily 5.jpg' alt='' style={{height: '100%', width: '20%'}}/>
+
             </div>
             <p className={styles.description}>
               I wire wrap crystals and sell them at Farmer’s Markets for fun!
@@ -256,30 +186,9 @@ const CommunityCuration = () => {
           <div className={styles.column}>
             <h1>Ethan</h1>
             <div className={styles.imageRow}>
-              <div className={styles.imageContainer}>
-                <Image
-                  src={Ethan1}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                  src={Ethan2}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                  src={Ethan3}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
+              <img src='./community-curation/Ethan/Ethan 1.jpg' alt='' style={{height: '100%', width: '30%'}}/>
+              <img src='./community-curation/Ethan/Ethan 2.jpg' alt='' style={{height: '100%', width: '30%'}}/>
+              <img src='./community-curation/Ethan/Ethan 3.jpg' alt='' style={{height: '100%', width: '30%'}}/>
             </div>
             <p className={styles.description}>
               These are maps I made for some dnd stuff iv been planning the
@@ -291,9 +200,11 @@ const CommunityCuration = () => {
           </div>
           <div className={styles.column}>
             <h1>Greg</h1>
-            <div className={styles.imageContainer}>
-              <Image src={Greg} fill style={{ objectFit: 'contain' }} alt='' />
-            </div>
+            <img
+              src='./community-curation/Greg/Greg.png'
+              alt=''
+              style={{ height: '100%' }}
+            />
             <p className={styles.description}>
               My life has had a lot of ups and downs. This photo means a lot to
               me because it shows me that no matter what I have been through God
