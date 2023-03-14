@@ -15,7 +15,7 @@ const CommunityCuration = () => {
             <img
               src='./community-curation/Adam/Adam.png'
               alt=''
-              style={{ height: '100%' }}
+              style={{ height: '400px' }}
             />
             <p className={styles.description}>
               My wife edited this photo of me, it turned out pretty cool 👌
@@ -26,7 +26,7 @@ const CommunityCuration = () => {
             <img
               src='./community-curation/Ailed/Ailed.jpg'
               alt=''
-              style={{ height: '80%' }}
+              style={{ height: '400px' }}
             />
             <p className={styles.description}>
               It is important to me because it was the first picture I took with
@@ -39,22 +39,22 @@ const CommunityCuration = () => {
               <img
                 src='./community-curation/Amanda/Amanda 1.jpg'
                 alt=''
-                style={{ height: '100%', width: '25%' }}
+                style={{ width: '200px' }}
               />
               <img
                 src='./community-curation/Amanda/Amanda 2.jpg'
                 alt=''
-                style={{ height: '100%', width: '25%' }}
+                style={{ width: '200px'}}
               />
               <img
                 src='./community-curation/Amanda/Amanda 3.jpg'
                 alt=''
-                style={{ height: '100%', width: '25%' }}
+                style={{ width: '200px' }}
               />
               <img
                 src='./community-curation/Amanda/Amanda 4.jpg'
                 alt=''
-                style={{ height: '100%', width: '25%' }}
+                style={{ width: '200px' }}
               />
             </div>
             <p className={styles.description}>
@@ -73,7 +73,7 @@ const CommunityCuration = () => {
             <img
               src='./community-curation/Brennan/Brennan Drawing.png'
               alt=''
-              style={{ height: '100%' }}
+              style={{ height: '300px' }}
             />
             <p className={styles.description}>
               I made this for my sister of my niece because I feel like there’s
@@ -101,7 +101,7 @@ const CommunityCuration = () => {
             <img
               src='./community-curation/Cameron/Cameron.jpg'
               alt=''
-              style={{ height: '100%' }}
+              style={{ height: '300px' }}
             />
             <p className={styles.description}>
               The reason why I did this was because of an old game I played
@@ -117,7 +117,7 @@ const CommunityCuration = () => {
             <img
               src='./community-curation/Colleen/Colleen.jpg'
               alt=''
-              style={{ height: '100%' }}
+              style={{ height: '300px' }}
             />
             <p className={styles.description}>
               I painted this portrait of my uncle. After he passed away painting
@@ -130,7 +130,7 @@ const CommunityCuration = () => {
             <img
               src='./community-curation/Courtney/Courtney.jpg'
               alt=''
-              style={{ height: '100%' }}
+              style={{ height: '300px' }}
             />
             <p className={styles.description}>
               I made a blanket for my cat! Its significant to me because I love
@@ -143,7 +143,7 @@ const CommunityCuration = () => {
             <img
               src='./community-curation/Ellen/Ellen.jpg'
               alt=''
-              style={{ height: '100%' }}
+              style={{ height: '300px' }}
             />
             <p className={styles.description}>
               I call it, "A Glimpse into Eternity." It is significant to me
@@ -156,27 +156,27 @@ const CommunityCuration = () => {
               <img
                 src='./community-curation/Emily/Emily 1.jpg'
                 alt=''
-                style={{ height: '100%', width: '20%' }}
+                style={{ width: '200px' }}
               />
               <img
                 src='./community-curation/Emily/Emily 2.jpg'
                 alt=''
-                style={{ height: '100%', width: '20%' }}
+                style={{ width: '200px' }}
               />
               <img
                 src='./community-curation/Emily/Emily 3.jpg'
                 alt=''
-                style={{ height: '100%', width: '20%' }}
+                style={{ width: '200px' }}
               />
               <img
                 src='./community-curation/Emily/Emily 4.jpg'
                 alt=''
-                style={{ height: '100%', width: '20%' }}
+                style={{ width: '200px' }}
               />
               <img
                 src='./community-curation/Emily/Emily 5.jpg'
                 alt=''
-                style={{ height: '100%', width: '20%' }}
+                style={{ width: '200px' }}
               />
             </div>
             <p className={styles.description}>
@@ -189,17 +189,17 @@ const CommunityCuration = () => {
               <img
                 src='./community-curation/Ethan/Ethan 1.jpg'
                 alt=''
-                style={{ height: '100%', width: '30%' }}
+                style={{ width: '250px' }}
               />
               <img
                 src='./community-curation/Ethan/Ethan 2.jpg'
                 alt=''
-                style={{ height: '100%', width: '30%' }}
+                style={{ width: '250px' }}
               />
               <img
                 src='./community-curation/Ethan/Ethan 3.jpg'
                 alt=''
-                style={{ height: '100%', width: '30%' }}
+                style={{ width: '250px'}}
               />
             </div>
             <p className={styles.description}>
@@ -215,7 +215,7 @@ const CommunityCuration = () => {
             <img
               src='./community-curation/Greg/Greg.png'
               alt=''
-              style={{ height: '100%' }}
+              style={{ height: '300px' }}
             />
             <p className={styles.description}>
               My life has had a lot of ups and downs. This photo means a lot to
@@ -228,7 +228,7 @@ const CommunityCuration = () => {
             <img
               src='./community-curation/Henry/Henry.png'
               alt=''
-              style={{ height: '100%' }}
+              style={{ height: '350px' }}
             />
             <p className={styles.description}>
               This is art to me. I created both of these and I’m planning on
@@ -242,7 +242,7 @@ const CommunityCuration = () => {
             <img
               src='./community-curation/Hunter/Hunter.jpg'
               alt=''
-              style={{ height: '100%' }}
+              style={{ height: '350px' }}
             />
             <p className={styles.description}>
               It significant cause soldering is hard and I feel like I did a
@@ -254,7 +254,7 @@ const CommunityCuration = () => {
             <img
               src='./community-curation/Ian/Ian.png'
               alt=''
-              style={{ height: '100%' }}
+              style={{ height: '350px' }}
             />
             <p className={styles.description}>
               This work of art is significant to me because this bagel can
@@ -270,7 +270,7 @@ const CommunityCuration = () => {
             <img
               src='./community-curation/Jacob/Jacob.jpeg'
               alt=''
-              style={{ height: '100%' }}
+              style={{ height: '350px' }}
             />
             <p className={styles.description}>
               Here’s a picture of me as a kid I found in a scrapbook my mom made
@@ -283,7 +283,7 @@ const CommunityCuration = () => {
             <img
               src='./community-curation/Jarod/Jarod.jpeg'
               alt=''
-              style={{ height: '100%' }}
+              style={{ height: '350px' }}
             />
             <p className={styles.description}>
               The reason why this is significant to me is because even with a
@@ -296,7 +296,7 @@ const CommunityCuration = () => {
             <img
               src='./community-curation/Jessica/Jessica.jpg'
               alt=''
-              style={{ height: '100%' }}
+              style={{ height: '350px' }}
             />
             <p className={styles.description}>
               I love this piece because it was an opportunity for me to learn
@@ -311,17 +311,17 @@ const CommunityCuration = () => {
               <img
                 src='./community-curation/McKay/mckay1.png'
                 alt=''
-                style={{ height: '100%', width: '30%' }}
+                style={{ height: '300px'}}
               />
               <img
                 src='./community-curation/McKay/mckay2.png'
                 alt=''
-                style={{ height: '100%', width: '30%' }}
+                style={{ height: '300px'}}
               />
               <img
                 src='./community-curation/McKay/mckay3.png'
                 alt=''
-                style={{ height: '100%', width: '30%' }}
+                style={{ height: '300px' }}
               />
             </div>
             <p className={styles.description}>
@@ -363,7 +363,7 @@ const CommunityCuration = () => {
             <img
               src='./community-curation/Nathaniel/Nathaniel Baby Yoda Loves Trash Pop.jpeg'
               alt=''
-              style={{ height: '100%' }}
+              style={{ height: '300px' }}
             />
             <p className={styles.description}>
               I finished this recently in Procreate. I love Baby Yoda, and I
@@ -377,17 +377,17 @@ const CommunityCuration = () => {
               <img
                 src='./community-curation/Noah/Noah 1.png'
                 alt=''
-                style={{ height: '100%', width: '30%' }}
+                style={{ height: '300px'}}
               />
               <img
                 src='./community-curation/Noah/Noah 2.png'
                 alt=''
-                style={{ height: '100%', width: '30%' }}
+                style={{ height: '300px'}}
               />
               <img
                 src='./community-curation/Noah/Noah 3.png'
                 alt=''
-                style={{ height: '100%', width: '30%' }}
+                style={{ height: '300px' }}
               />
             </div>
             <p className={styles.description}>
@@ -406,7 +406,7 @@ const CommunityCuration = () => {
             <img
               src='./community-curation/Sam/Sam.jpg'
               alt=''
-              style={{ height: '100%' }}
+              style={{ height: '300px' }}
             />
             <p className={styles.description}>
               This piece was my first attempt to express how ADHD feels to me. I
@@ -427,7 +427,7 @@ const CommunityCuration = () => {
             <img
               src='./community-curation/Truman/Truman.png'
               alt=''
-              style={{ height: '100%' }}
+              style={{ height: '300px' }}
             />
             <p className={styles.description}>
               So this is my aquarium that I designed recently. This is
@@ -443,7 +443,7 @@ const CommunityCuration = () => {
             <img
               src='./community-curation/Tyler/Tyler Wyrmroost.jpg'
               alt=''
-              style={{ height: '100%' }}
+              style={{ height: '300px' }}
             />
             <p className={styles.description} style={{ fontSize: '12px' }}>
               The following is a detailed map I made of the Wyrmroost dragon
@@ -487,7 +487,7 @@ const CommunityCuration = () => {
             <img
               src='./community-curation/Weston/Weston.jpeg'
               alt=''
-              style={{ height: '100%' }}
+              style={{ height: '300px' }}
             />
             <p className={styles.description}>
               I recently finished this puzzle with my friends. It took a lot of
@@ -517,7 +517,7 @@ const CommunityCuration = () => {
         in connecting different generations using this form of technology,
         however, it is through this technology that we are able to bridge the
         generational gap as people discover shared interests that for some
-        reason or another they had previously kept to themselves (85). By
+        reason or another they had previously kept to themselves (70). By
         creating this website where people of all backgrounds can share an art
         piece that they have put a little of themselves into, we are hoping to
         help be able to bridge this gap and encourage the interconnectedness of
