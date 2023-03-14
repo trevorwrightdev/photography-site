@@ -120,8 +120,6 @@ const CommunityCuration = () => {
             <div className={styles.imageContainer}>
               <Image
                 src={Brennan}
-                fill
-                style={{ objectFit: 'contain' }}
                 alt=''
               />
             </div>
