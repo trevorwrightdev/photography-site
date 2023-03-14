@@ -6,6 +6,7 @@ const CommunityCuration = () => {
       <div className={styles.topContainer}>
         <h1>Community Curation Creation</h1>
         <h3>Mar 14, 2023</h3>
+        <p style={{marginTop: '50px'}}>Scroll horizontally to see more</p>
       </div>
       <div className={styles.carousel}>
         <div className={styles.row}>
@@ -307,9 +308,21 @@ const CommunityCuration = () => {
           <div className={styles.column}>
             <h1>McKay</h1>
             <div className={styles.imageRow}>
-              <img src='./community-curation/McKay/mckay1.png' alt='' style={{ height: '100%', width: '30%' }}/>
-              <img src='./community-curation/McKay/mckay2.png' alt='' style={{ height: '100%', width: '30%' }}/>
-              <img src='./community-curation/McKay/mckay3.png' alt='' style={{ height: '100%', width: '30%' }}/>
+              <img
+                src='./community-curation/McKay/mckay1.png'
+                alt=''
+                style={{ height: '100%', width: '30%' }}
+              />
+              <img
+                src='./community-curation/McKay/mckay2.png'
+                alt=''
+                style={{ height: '100%', width: '30%' }}
+              />
+              <img
+                src='./community-curation/McKay/mckay3.png'
+                alt=''
+                style={{ height: '100%', width: '30%' }}
+              />
             </div>
             <p className={styles.description}>
               Here is a sketch I recently wrote for Divine Comedy. I consider
@@ -322,8 +335,16 @@ const CommunityCuration = () => {
           <div className={styles.column}>
             <h1>Nathan</h1>
             <div className={styles.imageRow} style={{ overflowY: 'scroll' }}>
-              <img src='./community-curation/Nathan/nathan 1.jpeg' alt='' style={{ height: '150%'}}/>
-              <img src='./community-curation/Nathan/nathan 2.jpeg' alt='' style={{ height: '150%'}}/>
+              <img
+                src='./community-curation/Nathan/nathan 1.jpeg'
+                alt=''
+                style={{ height: '150%' }}
+              />
+              <img
+                src='./community-curation/Nathan/nathan 2.jpeg'
+                alt=''
+                style={{ height: '150%' }}
+              />
             </div>
             <p className={styles.description}>
               This is my most recent Humans of Utah post. I took the photo and
@@ -353,9 +374,21 @@ const CommunityCuration = () => {
           <div className={styles.column}>
             <h1>Noah</h1>
             <div className={styles.imageRow}>
-              <img src='./community-curation/Noah/Noah 1.png' alt='' style={{ height: '100%', width: '30%' }}/>
-              <img src='./community-curation/Noah/Noah 2.png' alt='' style={{ height: '100%', width: '30%' }}/>
-              <img src='./community-curation/Noah/Noah 3.png' alt='' style={{ height: '100%', width: '30%' }}/>
+              <img
+                src='./community-curation/Noah/Noah 1.png'
+                alt=''
+                style={{ height: '100%', width: '30%' }}
+              />
+              <img
+                src='./community-curation/Noah/Noah 2.png'
+                alt=''
+                style={{ height: '100%', width: '30%' }}
+              />
+              <img
+                src='./community-curation/Noah/Noah 3.png'
+                alt=''
+                style={{ height: '100%', width: '30%' }}
+              />
             </div>
             <p className={styles.description}>
               I’m not an artist with paints and brushes but I consider baking to
@@ -407,7 +440,11 @@ const CommunityCuration = () => {
           </div>
           <div className={styles.column}>
             <h1>Tyler</h1>
-            <img src='./community-curation/Tyler/Tyler Wyrmroost.jpg' alt='' style={{ height: '100%' }}/>
+            <img
+              src='./community-curation/Tyler/Tyler Wyrmroost.jpg'
+              alt=''
+              style={{ height: '100%' }}
+            />
             <p className={styles.description} style={{ fontSize: '12px' }}>
               The following is a detailed map I made of the Wyrmroost dragon
               sanctuary from the Fablehaven/Dragonwatch series by Brandon Mull.
