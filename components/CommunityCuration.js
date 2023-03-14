@@ -1,24 +1,4 @@
 import styles from '../styles/CommunityCuration.module.css'
-import Image from 'next/image'
-import Henry from '../public/community-curation/Henry/Henry.png'
-import Hunter from '../public/community-curation/Hunter/Hunter.jpg'
-import Ian from '../public/community-curation/Ian/Ian.png'
-import Jacob from '../public/community-curation/Jacob/Jacob.jpeg'
-import Jarod from '../public/community-curation/Jarod/Jarod.jpeg'
-import Jessica from '../public/community-curation/Jessica/Jessica.jpg'
-import Mckay1 from '../public/community-curation/McKay/mckay1.png'
-import Mckay2 from '../public/community-curation/McKay/mckay2.png'
-import Mckay3 from '../public/community-curation/McKay/mckay3.png'
-import Nathan1 from '../public/community-curation/Nathan/Nathan 1.jpeg'
-import Nathan2 from '../public/community-curation/Nathan/Nathan 2.jpeg'
-import Nathaniel from '../public/community-curation/Nathaniel/Nathaniel Baby Yoda Loves Trash Pop.jpeg'
-import Noah1 from '../public/community-curation/Noah/Noah 1.png'
-import Noah2 from '../public/community-curation/Noah/Noah 2.png'
-import Noah3 from '../public/community-curation/Noah/Noah 3.png'
-import Sam from '../public/community-curation/Sam/Sam.jpg'
-import Truman from '../public/community-curation/Truman/Truman.png'
-import Tyler from '../public/community-curation/Tyler/Tyler Wyrmroost.jpg'
-import Weston from '../public/community-curation/Weston/Weston.jpeg'
 
 const CommunityCuration = () => {
   return (
@@ -172,12 +152,31 @@ const CommunityCuration = () => {
           <div className={styles.column}>
             <h1>Emily</h1>
             <div className={styles.imageRow}>
-              <img src='./community-curation/Emily/Emily 1.jpg' alt='' style={{height: '100%', width: '20%'}}/>
-              <img src='./community-curation/Emily/Emily 2.jpg' alt='' style={{height: '100%', width: '20%'}}/>
-              <img src='./community-curation/Emily/Emily 3.jpg' alt='' style={{height: '100%', width: '20%'}}/>
-              <img src='./community-curation/Emily/Emily 4.jpg' alt='' style={{height: '100%', width: '20%'}}/>
-              <img src='./community-curation/Emily/Emily 5.jpg' alt='' style={{height: '100%', width: '20%'}}/>
-
+              <img
+                src='./community-curation/Emily/Emily 1.jpg'
+                alt=''
+                style={{ height: '100%', width: '20%' }}
+              />
+              <img
+                src='./community-curation/Emily/Emily 2.jpg'
+                alt=''
+                style={{ height: '100%', width: '20%' }}
+              />
+              <img
+                src='./community-curation/Emily/Emily 3.jpg'
+                alt=''
+                style={{ height: '100%', width: '20%' }}
+              />
+              <img
+                src='./community-curation/Emily/Emily 4.jpg'
+                alt=''
+                style={{ height: '100%', width: '20%' }}
+              />
+              <img
+                src='./community-curation/Emily/Emily 5.jpg'
+                alt=''
+                style={{ height: '100%', width: '20%' }}
+              />
             </div>
             <p className={styles.description}>
               I wire wrap crystals and sell them at Farmer’s Markets for fun!
@@ -186,9 +185,21 @@ const CommunityCuration = () => {
           <div className={styles.column}>
             <h1>Ethan</h1>
             <div className={styles.imageRow}>
-              <img src='./community-curation/Ethan/Ethan 1.jpg' alt='' style={{height: '100%', width: '30%'}}/>
-              <img src='./community-curation/Ethan/Ethan 2.jpg' alt='' style={{height: '100%', width: '30%'}}/>
-              <img src='./community-curation/Ethan/Ethan 3.jpg' alt='' style={{height: '100%', width: '30%'}}/>
+              <img
+                src='./community-curation/Ethan/Ethan 1.jpg'
+                alt=''
+                style={{ height: '100%', width: '30%' }}
+              />
+              <img
+                src='./community-curation/Ethan/Ethan 2.jpg'
+                alt=''
+                style={{ height: '100%', width: '30%' }}
+              />
+              <img
+                src='./community-curation/Ethan/Ethan 3.jpg'
+                alt=''
+                style={{ height: '100%', width: '30%' }}
+              />
             </div>
             <p className={styles.description}>
               These are maps I made for some dnd stuff iv been planning the
@@ -213,9 +224,11 @@ const CommunityCuration = () => {
           </div>
           <div className={styles.column}>
             <h1>Henry</h1>
-            <div className={styles.imageContainer}>
-              <Image src={Henry} fill style={{ objectFit: 'contain' }} alt='' />
-            </div>
+            <img
+              src='./community-curation/Henry/Henry.png'
+              alt=''
+              style={{ height: '100%' }}
+            />
             <p className={styles.description}>
               This is art to me. I created both of these and I’m planning on
               recreating it several more times. It speaks to me. I feel like I
@@ -225,14 +238,11 @@ const CommunityCuration = () => {
           </div>
           <div className={styles.column}>
             <h1>Hunter</h1>
-            <div className={styles.imageContainer}>
-              <Image
-                src={Hunter}
-                fill
-                style={{ objectFit: 'contain' }}
-                alt=''
-              />
-            </div>
+            <img
+              src='./community-curation/Hunter/Hunter.jpg'
+              alt=''
+              style={{ height: '100%' }}
+            />
             <p className={styles.description}>
               It significant cause soldering is hard and I feel like I did a
               really good job at making this board look nice.
@@ -240,9 +250,11 @@ const CommunityCuration = () => {
           </div>
           <div className={styles.column}>
             <h1>Ian</h1>
-            <div className={styles.imageContainer}>
-              <Image src={Ian} fill style={{ objectFit: 'contain' }} alt='' />
-            </div>
+            <img
+              src='./community-curation/Ian/Ian.png'
+              alt=''
+              style={{ height: '100%' }}
+            />
             <p className={styles.description}>
               This work of art is significant to me because this bagel can
               represent my life, beautifully chaotic. While this bagel has
@@ -254,9 +266,11 @@ const CommunityCuration = () => {
           </div>
           <div className={styles.column}>
             <h1>Jacob</h1>
-            <div className={styles.imageContainer}>
-              <Image src={Jacob} fill style={{ objectFit: 'contain' }} alt='' />
-            </div>
+            <img
+              src='./community-curation/Jacob/Jacob.jpeg'
+              alt=''
+              style={{ height: '100%' }}
+            />
             <p className={styles.description}>
               Here’s a picture of me as a kid I found in a scrapbook my mom made
               lol. This is significant to me because it’s a good reminder of how
@@ -265,9 +279,11 @@ const CommunityCuration = () => {
           </div>
           <div className={styles.column}>
             <h1>Jarod</h1>
-            <div className={styles.imageContainer}>
-              <Image src={Jarod} fill style={{ objectFit: 'contain' }} alt='' />
-            </div>
+            <img
+              src='./community-curation/Jarod/Jarod.jpeg'
+              alt=''
+              style={{ height: '100%' }}
+            />
             <p className={styles.description}>
               The reason why this is significant to me is because even with a
               lack of color in this world, when there is something with color,
@@ -276,14 +292,11 @@ const CommunityCuration = () => {
           </div>
           <div className={styles.column}>
             <h1>Jessica</h1>
-            <div className={styles.imageContainer}>
-              <Image
-                src={Jessica}
-                fill
-                style={{ objectFit: 'contain' }}
-                alt=''
-              />
-            </div>
+            <img
+              src='./community-curation/Jessica/Jessica.jpg'
+              alt=''
+              style={{ height: '100%' }}
+            />
             <p className={styles.description}>
               I love this piece because it was an opportunity for me to learn
               new techniques. This was the first art I outlined with a quill and
@@ -294,30 +307,9 @@ const CommunityCuration = () => {
           <div className={styles.column}>
             <h1>McKay</h1>
             <div className={styles.imageRow}>
-              <div className={styles.imageContainer}>
-                <Image
-                  src={Mckay1}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                  src={Mckay2}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                  src={Mckay3}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
+              <img src='./community-curation/McKay/mckay1.png' alt='' style={{ height: '100%', width: '30%' }}/>
+              <img src='./community-curation/McKay/mckay2.png' alt='' style={{ height: '100%', width: '30%' }}/>
+              <img src='./community-curation/McKay/mckay3.png' alt='' style={{ height: '100%', width: '30%' }}/>
             </div>
             <p className={styles.description}>
               Here is a sketch I recently wrote for Divine Comedy. I consider
@@ -330,22 +322,8 @@ const CommunityCuration = () => {
           <div className={styles.column}>
             <h1>Nathan</h1>
             <div className={styles.imageRow} style={{ overflowY: 'scroll' }}>
-              <div className={styles.humanContainer}>
-                <Image
-                  src={Nathan1}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
-              <div className={styles.humanContainer}>
-                <Image
-                  src={Nathan2}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
+              <img src='./community-curation/Nathan/nathan 1.jpeg' alt='' style={{ height: '150%'}}/>
+              <img src='./community-curation/Nathan/nathan 2.jpeg' alt='' style={{ height: '150%'}}/>
             </div>
             <p className={styles.description}>
               This is my most recent Humans of Utah post. I took the photo and
@@ -361,14 +339,11 @@ const CommunityCuration = () => {
           </div>
           <div className={styles.column}>
             <h1>Nathaniel</h1>
-            <div className={styles.imageContainer}>
-              <Image
-                src={Nathaniel}
-                fill
-                style={{ objectFit: 'contain' }}
-                alt=''
-              />
-            </div>
+            <img
+              src='./community-curation/Nathaniel/Nathaniel Baby Yoda Loves Trash Pop.jpeg'
+              alt=''
+              style={{ height: '100%' }}
+            />
             <p className={styles.description}>
               I finished this recently in Procreate. I love Baby Yoda, and I
               love Trash Pop, so I wanted to Baby Yoda to love Trash Pop too.
@@ -378,30 +353,9 @@ const CommunityCuration = () => {
           <div className={styles.column}>
             <h1>Noah</h1>
             <div className={styles.imageRow}>
-              <div className={styles.imageContainer}>
-                <Image
-                  src={Noah1}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                  src={Noah2}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
-              <div className={styles.imageContainer}>
-                <Image
-                  src={Noah3}
-                  fill
-                  style={{ objectFit: 'contain' }}
-                  alt=''
-                />
-              </div>
+              <img src='./community-curation/Noah/Noah 1.png' alt='' style={{ height: '100%', width: '30%' }}/>
+              <img src='./community-curation/Noah/Noah 2.png' alt='' style={{ height: '100%', width: '30%' }}/>
+              <img src='./community-curation/Noah/Noah 3.png' alt='' style={{ height: '100%', width: '30%' }}/>
             </div>
             <p className={styles.description}>
               I’m not an artist with paints and brushes but I consider baking to
@@ -416,9 +370,11 @@ const CommunityCuration = () => {
           </div>
           <div className={styles.column}>
             <h1>Sam</h1>
-            <div className={styles.imageContainer}>
-              <Image src={Sam} fill style={{ objectFit: 'contain' }} alt='' />
-            </div>
+            <img
+              src='./community-curation/Sam/Sam.jpg'
+              alt=''
+              style={{ height: '100%' }}
+            />
             <p className={styles.description}>
               This piece was my first attempt to express how ADHD feels to me. I
               think the most poignant piece of it for me is that the face looks
@@ -435,14 +391,11 @@ const CommunityCuration = () => {
           </div>
           <div className={styles.column}>
             <h1>Truman</h1>
-            <div className={styles.imageContainer}>
-              <Image
-                src={Truman}
-                fill
-                style={{ objectFit: 'contain' }}
-                alt=''
-              />
-            </div>
+            <img
+              src='./community-curation/Truman/Truman.png'
+              alt=''
+              style={{ height: '100%' }}
+            />
             <p className={styles.description}>
               So this is my aquarium that I designed recently. This is
               significant to me because I feel a sense of joy and peace in
@@ -454,9 +407,7 @@ const CommunityCuration = () => {
           </div>
           <div className={styles.column}>
             <h1>Tyler</h1>
-            <div className={styles.imageContainer}>
-              <Image src={Tyler} fill style={{ objectFit: 'contain' }} alt='' />
-            </div>
+            <img src='./community-curation/Tyler/Tyler Wyrmroost.jpg' alt='' style={{ height: '100%' }}/>
             <p className={styles.description} style={{ fontSize: '12px' }}>
               The following is a detailed map I made of the Wyrmroost dragon
               sanctuary from the Fablehaven/Dragonwatch series by Brandon Mull.
@@ -496,14 +447,11 @@ const CommunityCuration = () => {
           </div>
           <div className={styles.column}>
             <h1>Weston</h1>
-            <div className={styles.imageContainer}>
-              <Image
-                src={Weston}
-                fill
-                style={{ objectFit: 'contain' }}
-                alt=''
-              />
-            </div>
+            <img
+              src='./community-curation/Weston/Weston.jpeg'
+              alt=''
+              style={{ height: '100%' }}
+            />
             <p className={styles.description}>
               I recently finished this puzzle with my friends. It took a lot of
               time and cooperation to put it all together. We had to coordinate
