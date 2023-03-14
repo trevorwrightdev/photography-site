@@ -6,7 +6,7 @@ const CommunityCuration = () => {
       <div className={styles.topContainer}>
         <h1>Community Curation Creation</h1>
         <h3>Mar 14, 2023</h3>
-        <p style={{marginTop: '50px'}}>Scroll horizontally to see more</p>
+        <p style={{ marginTop: '50px' }}>Scroll horizontally to see more</p>
       </div>
       <div className={styles.carousel}>
         <div className={styles.row}>
@@ -500,6 +500,44 @@ const CommunityCuration = () => {
           </div>
         </div>
       </div>
+      <p className={styles.bottomDescription}>
+        All the Beauty of Art <br /><br />
+        Art is a very subjective topic, to one person a simple cake is nothing
+        more than a delicious dessert while to the baker it is their finest
+        piece of art. Because art is so subjective, in this project we wanted to
+        highlight the unique forms of art that our friends and family make, and
+        even more so, we wanted to give them a platform to be able to explain
+        why it was significant to them. <br /><br />
+        Something unique that we noticed in doing this project is that we
+        received submissions from people of all ages, children, adults, and
+        seniors. Everyone has a piece of art, and by participating in this
+        project some were able to see how significant a piece of art they
+        created really is. According to Ito and others in Connected Learning an
+        Agenda for Research and Design, there are still challenges that we face
+        in connecting different generations using this form of technology,
+        however, it is through this technology that we are able to bridge the
+        generational gap as people discover shared interests that for some
+        reason or another they had previously kept to themselves (85). By
+        creating this website where people of all backgrounds can share an art
+        piece that they have put a little of themselves into, we are hoping to
+        help be able to bridge this gap and encourage the interconnectedness of
+        others. <br /><br />
+        This part of the website allows for people’s art to be seen individually
+        while still being able to scroll through and see how the other art
+        pieces compare. It allows time for the viewer to take in each individual
+        art piece separately as if they were at the museum instead of all at
+        once as if they were on someone’s instagram page. This type of
+        collaboration helps us to study not only what other’s think is art, but
+        also what type of community we have around us in the similarities and
+        differences we have with certain art. For instance, many of my friends
+        had actual drawn pieces of art which is also what I would have submitted
+        if I was asked our prompt. We could have even created a hashtag to get
+        more submissions and bring an even larger community just like
+        #BlackGirlMagic did. Though we aren’t pushing something as important, it
+        is helpful to know that their are people out there all considering their
+        little slices of life to be art, making many more people artists than we
+        originally thought.
+      </p>
     </>
   )
 }

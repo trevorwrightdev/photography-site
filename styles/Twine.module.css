@@ -1,13 +1,13 @@
 .topContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
 }
 
 .description {
-    margin-top: 25px;
-    width: 95vw;
-    max-width: 900px; 
+  margin-top: 25px;
+  width: 95vw;
+  max-width: 900px;
 }

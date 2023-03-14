@@ -63,3 +63,9 @@
   height: 100%;
   object-fit: cover;
 }
+
+.bottomDescription {
+  margin-top: 25px;
+  width: 95vw;
+  max-width: 900px;
+}
