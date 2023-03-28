@@ -39,6 +39,18 @@
   gap: 15px;
 }
 
+.poachColumn {
+  width: 50vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #121212;
+  padding: 15px;
+  padding-bottom: 30px;
+}
+
 .imageRow {
   display: flex;
   flex-direction: row;

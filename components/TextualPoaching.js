@@ -10,147 +10,147 @@ const TextualPoaching = () => {
       </div>
       <div className={styles.carousel}>
         <div className={styles.row}>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching2.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching3.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching4.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching5.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching6.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching7.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching8.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching9.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching10.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching11.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching12.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching13.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching14.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching15.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching16.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching17.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching18.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching19.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching20.jpg'
               alt=''
               style={{ width: '375px' }}
             />
           </div>
-          <div className={styles.column}>
+          <div className={styles.poachColumn}>
             <img
               src='./textual-poaching/Textual Poaching21.jpg'
               alt=''
