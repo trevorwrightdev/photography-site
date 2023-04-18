@@ -1,0 +1,84 @@
+.topContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.description {
+  margin-top: 25px;
+}
+
+.column {
+  width: 80vw;
+  max-width: 1300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #121212;
+  padding: 15px;
+  padding-bottom: 30px;
+}
+
+.carousel {
+  width: 80vw;
+  max-width: 1300px;
+  height: 550px;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.poachColumn {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #121212;
+  padding: 15px;
+  padding-bottom: 30px;
+}
+
+.imageRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.humanContainer {
+  position: relative;
+  width: 100%;
+  height: 200%;
+  margin-top: 30%;
+}
+
+.vid {
+  position: relative;
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.bottomDescription {
+  margin-top: 25px;
+  width: 95vw;
+  max-width: 900px;
+}
